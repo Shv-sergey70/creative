@@ -19,7 +19,7 @@
         <nav class="navigation navbar navbar-expand-lg navbar-light  fixed-top bg-white" id='navigation'>
             <div class="container">
                 <a href="#heading" class="navigation__brand js-scrollspy-item navbar-brand text-uppercase"><b>Start Project</b></a>
-                <button class="navigation__btn navbar-toggler" type="button" data-toggle='collapse' data-target='#menu' aria-controls="#menu" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navigation__btn navbar-toggler" type="button" data-toggle='collapse' data-target='#menu' aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navigation__icon navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="menu">
@@ -32,6 +32,9 @@
                         </li>
                         <li class="nav-item">
                             <a href="#portfolio" class="navigation__link js-scrollspy-item nav-link text-uppercase"><b>Portfolio</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#faq" class="navigation__link js-scrollspy-item nav-link text-uppercase"><b>FAQ</b></a>
                         </li>
                         <li class="nav-item">
                             <a href="#contact" class="navigation__link js-scrollspy-item nav-link text-uppercase"><b>Contacts</b></a>
@@ -182,6 +185,60 @@
             <div class="container text-center">
                 <h2 class="text-white">Adaptive theme for your business</h2>
                 <a href="#" class="btn btn-secondary wow zoomIn mt-4" data-wow-duration="600ms" data-wow-delay="300ms">Download now!</a>
+            </div>
+        </section>
+        <!--FAQ-->
+        <section class="faq p-section text-center bg-light" id="faq">
+            <h2 class="faq__title mb-4">FAQ</h2>
+            <hr class='line bg-primary'>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-4 d-none d-lg-block">
+                        <img class="img-fluid" src="img/question.png" alt="decorative-items">
+                    </div>
+                    <div class="col-12 col-lg-7 offset-lg-1 accordion" id='accordion'>
+                        <div class="card">
+                            <h4 class="card-header p-0" id="tab_1">
+                                <button class="faq__btn btn btn-link w-100 p-4" type="button" data-toggle="collapse" data-target="#tab_content_1" aria-expanded="true" aria-controls="tab_content_1">Adaptive site <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            </h4>
+                            <div id="tab_content_1" class="collapse show" aria-labelledby="tab_1" data-parent="#accordion">
+                              <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni beatae, dolorem ipsam error rem repellendus ab soluta, maxime quae consectetur voluptas distinctio voluptatibus ipsum dolorum quasi perferendis quidem et laborum?
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4 class="card-header p-0" id="tab_2">
+                                <button class="faq__btn btn btn-link w-100 p-4" type="button" data-toggle="collapse" data-target="#tab_content_2" aria-expanded="true" aria-controls="tab_content_2">Creative site <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            </h4>
+                            <div id="tab_content_2" class="collapse" aria-labelledby="tab_2" data-parent="#accordion">
+                              <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni beatae, dolorem ipsam error rem repellendus ab soluta, maxime quae consectetur voluptas distinctio voluptatibus ipsum dolorum quasi perferendis quidem et laborum?
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4 class="card-header p-0" id="tab_3">
+                                <button class="faq__btn btn btn-link w-100 p-4" type="button" data-toggle="collapse" data-target="#tab_content_3" aria-expanded="true" aria-controls="tab_content_3">Beautiful site <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            </h4>
+                            <div id="tab_content_3" class="collapse" aria-labelledby="tab_3" data-parent="#accordion">
+                              <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni beatae, dolorem ipsam error rem repellendus ab soluta, maxime quae consectetur voluptas distinctio voluptatibus ipsum dolorum quasi perferendis quidem et laborum?
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4 class="card-header p-0" id="tab_4">
+                                <button class="faq__btn btn btn-link w-100 p-4" type="button" data-toggle="collapse" data-target="#tab_content_4" aria-expanded="true" aria-controls="tab_content_4">Universal site <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            </h4>
+                            <div id="tab_content_4" class="collapse" aria-labelledby="tab_4" data-parent="#accordion">
+                              <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni beatae, dolorem ipsam error rem repellendus ab soluta, maxime quae consectetur voluptas distinctio voluptatibus ipsum dolorum quasi perferendis quidem et laborum?
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!--Contact-->

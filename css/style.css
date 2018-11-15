@@ -25,6 +25,15 @@ a:focus {
     font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
     padding: 1rem 2em;
 }
+.btn-link {
+    color: #212529 !important;
+}
+.btn-link:hover,
+.btn-link:active,
+.btn-link:focus {
+    color: #f05f40 !important;
+    text-decoration: none;
+}
 .bg-transparent {
     background-color: transparent !important;
 }
@@ -104,6 +113,9 @@ a:focus {
 .navbar-light .navigation__link:focus {
     color: #f05f40 !important;
 }
+.navigation__link.active {
+    color: #f05f40 !important;
+}
 /*Heading*/
 .heading {
     height: 100vh;
@@ -145,6 +157,13 @@ a:focus {
 }
 .gallery-item__description__title {
     font-size: 1.5em;
+}
+/*FAQ*/
+.faq__title {
+    font-size: 4em;
+}
+.faq__btn {
+    white-space: normal;
 }
 /*Contacts*/
 .contacts__icon {
