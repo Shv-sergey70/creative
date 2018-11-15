@@ -41,4 +41,15 @@ $(document).ready(function(){
     $(window).on('resize', function() {
         checkNavbar($navigation);
     });
+    //Accordion-js
+    $('.faq__content-js').on('hide.bs.collapse', function () {
+        var $card_content = $(this);
+        var $card_icon = $card_content.closest('.card').find('.card-header').find('.faq__icon');
+        $card_icon.html('+');
+    });
+    $('.faq__content-js').on('show.bs.collapse', function () {
+        var $card_content = $(this);
+        var $card_icon = $card_content.closest('.card').find('.card-header').find('.faq__icon');
+        $card_icon.html('&#8211;');
+    });
 });

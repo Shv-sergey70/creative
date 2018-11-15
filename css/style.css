@@ -103,7 +103,7 @@ a:focus {
 .navbar-light .navigation__brand:hover,
 .navbar-light .navigation__brand:active,
 .navbar-light .navigation__brand:focus {
-    color: #f05f40!important;
+    color: #f05f40 !important;
 }
 .navbar-light .navigation__link {
     color: #212529 !important;
@@ -164,6 +164,10 @@ a:focus {
 }
 .faq__btn {
     white-space: normal;
+}
+.faq__icon {
+    font-size: 2em;
+    color: #f05f40 !important;
 }
 /*Contacts*/
 .contacts__icon {
