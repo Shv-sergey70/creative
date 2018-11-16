@@ -127,7 +127,6 @@ a:focus {
     font-size: 2rem;
 }
 .heading__text {
-    font-size: 1.15rem;
     font-weight: 300;
 }
 /*About*/
@@ -158,6 +157,8 @@ a:focus {
 .gallery-item__description__title {
     font-size: 1.5em;
 }
+/*Callout*/
+
 /*FAQ*/
 .faq__title {
     font-size: 4em;
@@ -174,10 +175,10 @@ a:focus {
     font-size: 3em;
     transition: .2s;
 }
-@media(min-width: 992px) {
+@media(min-width: 576px) {
     /*Heading*/
     .heading__title {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 @media(min-width: 768px) {
@@ -185,10 +186,13 @@ a:focus {
     .heading__title {
         font-size: 3.5rem;
     }
+    .heading__text {
+        font-size: 1.15rem;
+    }
 }
-@media(min-width: 576px) {
+@media(min-width: 992px) {
     /*Heading*/
     .heading__title {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 }
